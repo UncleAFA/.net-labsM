@@ -12,3 +12,4 @@ D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab1\obj\Debug\net8.0\refint
 D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab1\obj\Debug\net8.0\Lab1.pdb
 D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
 D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab1\obj\Debug\net8.0\ref\Lab1.dll
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json

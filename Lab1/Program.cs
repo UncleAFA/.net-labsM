@@ -1,4 +1,14 @@
-﻿class Program
+﻿/// <summary>
+/// Как работает программа:
+/// Программа запрашивает у пользователя ввод чисел через пробел.
+/// Введенные числа разбиваются на отдельные строки.
+/// Каждая строка преобразуется в число, и для каждого числа проверяется, является ли оно простым.
+/// Если число простое, оно засчитывается в общий счетчик простых чисел.
+/// В конце программа выводит количество простых чисел.
+/// </summary>
+
+
+class Program
 {
     // Метод для проверки, является ли число простым
     static bool IsPrime(int number)
@@ -16,11 +26,22 @@
 
     static void Main(string[] args)
     {
-        Console.Write("Введите набор чисел через пробел:");
-        string input = Console.ReadLine();
+        string[] inputNumbers;
+        while (true)
+        {
+            Console.Write("Введите набор чисел через запятую:");
+            string input = Console.ReadLine();
 
-        // Разделяем введенные числа на массив строк
-        string[] inputNumbers = input.Split(' ');
+            // Разделяем введенные числа на массив строк
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                Console.WriteLine("Строка пустая. Повторите ввод.");
+                continue;
+            }
+            inputNumbers = input.Split(',');
+            break;
+        }
+
 
         int primeCount = 0;
 
