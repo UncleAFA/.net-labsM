@@ -1,5 +1,10 @@
-﻿using System;
-
+﻿/// <summary>
+/// Пользователь вводит размеры матрицы (n строк и m столбцов).
+/// Пользователь вводит элементы матрицы.
+/// Программа находит максимальное значение среди всех элементов.
+/// Все элементы, равные максимальному значению, заменяются на нули.
+/// Программа выводит обновленную матрицу.
+/// </summary>
 class Program
 {
     static void Main(string[] args)
@@ -39,21 +44,18 @@ class Program
         {
             for (int j = 0; j < m; j++)
             {
-                
+
                 while (true)
                 {
                     Console.Write($"Элемент [{i},{j}]: ");
-                    if (int.TryParse(Console.ReadLine(),out int result))
+                    if (int.TryParse(Console.ReadLine(), out int result))
                     {
                         matrix[i, j] = result;
+                        maxValue = Math.Max(maxValue, result);
                         break;
                     }
                     Console.WriteLine("Это не число. Повторите ввод.");
                 }
-
-                // Определяем максимальное значение в процессе ввода
-                if (matrix[i, j] > maxValue)
-                    maxValue = matrix[i, j];
             }
         }
 
