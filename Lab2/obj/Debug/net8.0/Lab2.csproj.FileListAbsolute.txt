@@ -1,0 +1,15 @@
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\bin\Debug\net8.0\Lab2.exe
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\bin\Debug\net8.0\Lab2.deps.json
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\bin\Debug\net8.0\Lab2.runtimeconfig.json
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\bin\Debug\net8.0\Lab2.dll
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\bin\Debug\net8.0\Lab2.pdb
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfoInputs.cache
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfo.cs
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.csproj.CoreCompileInputs.cache
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.sourcelink.json
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.dll
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\refint\Lab2.dll
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.pdb
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\Lab2.genruntimeconfig.cache
+D:\BMSTU\7 семестр\C#\Марина\Solution1\Lab2\obj\Debug\net8.0\ref\Lab2.dll
