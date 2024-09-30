@@ -29,7 +29,7 @@ class Program
         string[] inputNumbers;
         while (true)
         {
-            Console.Write("Введите набор чисел через запятую:");
+            Console.Write("Введите набор чисел через пробел:");
             string input = Console.ReadLine();
 
             // Разделяем введенные числа на массив строк
@@ -38,7 +38,7 @@ class Program
                 Console.WriteLine("Строка пустая. Повторите ввод.");
                 continue;
             }
-            inputNumbers = input.Split(',');
+            inputNumbers = input.Split(' ');
             break;
         }
 
